@@ -1,0 +1,14 @@
+.carrousel-image-big {
+    width: 350px;
+    height: 350px;
+    margin-bottom: 16px;
+    justify-self: center;
+    align-self: center;
+    object-fit: cover;
+}
+
+.carrousel {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
+}

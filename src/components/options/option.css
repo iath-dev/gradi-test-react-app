@@ -1,0 +1,15 @@
+.option {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    /* border: 1px solid gray; */
+}
+
+.option:hover {
+    opacity: 75%;
+    cursor: pointer;
+}
+
+.selected {
+    opacity: 50%;
+}

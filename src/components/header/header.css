@@ -1,0 +1,15 @@
+nav {
+    display: flex;
+    width: 100vw;
+    background-color: white;
+    padding: 16px 32px;
+}
+
+nav h6:not(:last-child) {
+    margin-right: 8px;
+}
+
+nav h6:not(:last-child):after {
+    content: '/';
+    margin-left: 4px;
+}
